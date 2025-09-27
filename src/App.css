@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +42,19 @@
     transform: rotate(360deg);
   }
 }
+/* Change navigation arrows to brown */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #A0522D; /* brown */
+}
+
+/* Optional: increase size */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 24px;
+}
+.swiper-pagination-bullet {
+  background-color: #A0522D;
+}
+
+
